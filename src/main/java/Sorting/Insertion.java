@@ -1,6 +1,6 @@
 package Sorting;
 
-import servers.Swapping;
+import FindSwap.Swapping;
 
 import java.util.Arrays;
 
