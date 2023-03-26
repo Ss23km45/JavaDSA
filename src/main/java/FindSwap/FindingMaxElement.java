@@ -1,8 +1,6 @@
-package servers;
+package FindSwap;
 
 import Sorting.BubbleSort;
-
-import java.util.Arrays;
 
 public class FindingMaxElement {
     public static void main(String[] args) {
