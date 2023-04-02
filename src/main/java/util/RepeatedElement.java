@@ -1,6 +1,6 @@
 package util;
 
-import FindSwap.Swapping;
+import findSwap.Swapping;
 
 import java.util.Arrays;
 

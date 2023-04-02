@@ -1,6 +1,6 @@
-package Sorting;
+package sorting;
 
-import FindSwap.Swapping;
+import findSwap.Swapping;
 
 import java.util.Arrays;
 

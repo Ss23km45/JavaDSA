@@ -1,8 +1,6 @@
 package util;
 
-import FindSwap.Swapping;
-
-import java.util.Arrays;
+import findSwap.Swapping;
 
 public class MissingNumber {
     public static void main(String[] args) {

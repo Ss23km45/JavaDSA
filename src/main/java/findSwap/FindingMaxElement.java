@@ -1,6 +1,6 @@
-package FindSwap;
+package findSwap;
 
-import Sorting.BubbleSort;
+import sorting.BubbleSort;
 
 public class FindingMaxElement {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package Sorting;
+package sorting;
 
-import FindSwap.FindingMaxElement;
+import findSwap.FindingMaxElement;
 
 import java.util.Arrays;
 

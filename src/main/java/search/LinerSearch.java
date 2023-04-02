@@ -1,5 +1,4 @@
-package Search;
-import java.util.Arrays;
+package search;
 
 public class LinerSearch {
     public static void main(String[] args) {

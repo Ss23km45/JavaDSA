@@ -1,6 +1,6 @@
-package Sorting;
+package sorting;
 
-import FindSwap.Swapping;
+import findSwap.Swapping;
 
 import java.util.Arrays;
 
@@ -18,7 +18,7 @@ public class CyclicSort {
                 continue;
             }
             else{
-               swapping.swap(arr,i,correct);
+               Swapping.swap(arr,i,correct);
             }
         }
 

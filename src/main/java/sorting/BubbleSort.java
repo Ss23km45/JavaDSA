@@ -1,8 +1,6 @@
-package Sorting;
+package sorting;
 
-import Search.BinarySearch;
-
-import java.util.Arrays;
+import search.BinarySearch;
 
 public class BubbleSort {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package util;
 
 public class Palindrome {
     public static void main(String[] args) {
-        String pali = "gthhtg";
+        String pali = "gthht";
         int start=0, end =pali.length()-1;
         int mid = end/2;
 

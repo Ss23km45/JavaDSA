@@ -1,9 +1,8 @@
 package util;
 
-import FindSwap.Swapping;
+import findSwap.Swapping;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class AllNumberMissed {
