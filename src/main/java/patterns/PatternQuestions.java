@@ -2,7 +2,7 @@ package patterns;
 
 public class PatternQuestions {
     public static void main(String[] args) {
-        pattern6(5);
+        pattern88(18);
     }
 
     static void pattern1 (int n){
@@ -90,6 +90,19 @@ public class PatternQuestions {
                 }
                 System.out.println("");
             }
+
+    }
+
+    static void pattern88(int n){
+        for (int i= 0; i<= n; i++)
+        {
+            //left, right, up and down of the Wall
+            for (int j=0; j<=n; j++) {
+                int value = Math.min(Math.min(j, i), Math.min(n-j, n-i));
+                System.out.print(value + " ");
+            }
+            System.out.println();
+        }
 
     }
 }
