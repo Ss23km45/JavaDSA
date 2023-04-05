@@ -17,5 +17,7 @@ public class MagicNumber {
         }
 
         System.out.println(sum);
+
+        System.out.println((Math.pow(5,2)));
     }
 }
