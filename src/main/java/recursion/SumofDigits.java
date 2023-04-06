@@ -3,7 +3,8 @@ package recursion;
 public class SumofDigits {
 
     public static void main(String[] args) {
-        System.out.println(rev(123456789));
+        System.out.println(source(736352925,9));
+        System.out.println((int)(Math.log10(736352925)+1));
     }
 
     static int sumofDigits(int n){
@@ -26,5 +27,25 @@ public class SumofDigits {
         }
 
         return (int)(((Num%10) * (Math.pow(10,digits-1)) + reverseInt(Num/10, digits-1)));
+    }
+
+
+    static int source(int sourceNum, int search){
+        return countofDigit(sourceNum, 0,search);
+    }
+
+
+    static int countofDigit(int sourceNum, int digittoCount,int search){
+        int rem = sourceNum % 10;
+        if(rem==0){
+            return digittoCount;
+        }
+
+
+        if(rem==search){
+            return countofDigit(sourceNum/10, digittoCount+1,search);
+        }else{
+            return countofDigit(sourceNum/10, digittoCount,search);
+        }
     }
 }
