@@ -7,6 +7,8 @@ public class BitwiseHandson {
         System.out.println(xorOper(arr));
         System.out.println(0 ^ 1);
         findithbit(5);
+
+        System.out.println(Math.sqrt(76));
     }
 
     private static void andOper(int i) {
