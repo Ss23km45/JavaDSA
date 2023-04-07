@@ -4,7 +4,7 @@ import search.BinarySearch;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {2,5,2,4,8,3,8,5,9,4,1,97,7,3,46,2346,7674,54,243,};
+        int[] arr = {2,5,2,4,8,3};
         BSort(arr);
         BinarySearch binarySearch = new BinarySearch();
         System.out.println(binarySearch.binarySearch1(arr, 2346));
