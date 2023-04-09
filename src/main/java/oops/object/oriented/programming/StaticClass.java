@@ -26,9 +26,9 @@ public class StaticClass {
 
         }
 
-        static void returnable(){
+        /*static void returnable(){
             System.out.println(this.val);
-        }
+        } */
 
         void work(){
             System.out.println(this.val);
