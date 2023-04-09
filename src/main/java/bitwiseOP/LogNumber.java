@@ -1,6 +1,5 @@
 package bitwiseOP;
 
-import org.springframework.aot.generate.InMemoryGeneratedFiles;
 
 public class LogNumber {
     public static void main(String[] args) {
