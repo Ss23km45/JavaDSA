@@ -1,8 +1,15 @@
 import java.util.Arrays;
+interface a {
+    void method();
+}
 
-public class JavaSample {
+class base {
+    public void method(){
+        System.out.println("I am here");
+    }
+}
+public class JavaSample extends base implements a{
     public static void main(String[] args) {
-        System.out.println("args = " + Arrays.deepToString(args));
-        System.out.println("Hello GuruDeva ");
+        (new JavaSample()).method();
     }
 }
